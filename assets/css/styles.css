@@ -280,6 +280,7 @@ img {
 .skills__names {
   display: flex;
   align-items: center;
+  
 }
 .skills__bar {
   position: absolute;
@@ -292,6 +293,12 @@ img {
 }
 .skills__html {
   width: 95%;
+}
+.skills__reactjs {
+  width: 90%;
+}
+.skills__reactnative{
+  width: 85%;
 }
 .skills__css {
   width: 85%;
@@ -314,6 +321,7 @@ img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
+  color: inherit;
 }
 .work__img img {
   transition: 1s;
@@ -321,6 +329,7 @@ img {
 .work__img img:hover {
   transform: scale(1.1);
 }
+
 
 /* ===== CONTACT =====*/
 .contact__input {
@@ -472,6 +481,15 @@ img {
     column-gap: 2rem;
   }
 }
+
+#header_Part{
+  padding-right: 100px;
+}
+
+
+
+
+
 @media screen and (min-width: 992px) {
   .bd-grid {
     margin-left: auto;
